@@ -1,0 +1,22 @@
+/* ©Lanred */
+
+/* Font registry */
+@font-face {
+    font-family: Open_Sans_Regular;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Regular.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bold;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Bold.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Light;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Light.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bolder;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-ExtraBold.ttf")  format("truetype");
+}

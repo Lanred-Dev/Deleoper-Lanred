@@ -1,0 +1,283 @@
+/* ©Lanred */
+
+/* Font registry */
+@font-face {
+    font-family: Open_Sans_Regular;
+    src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bold;
+    src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Light;
+    src: url("../Fonts/Open_Sans/OpenSans-Light.ttf")  format("truetype");
+}
+
+/* Tag Based */
+* {
+    margin: auto;
+    padding: auto;
+    border: auto;
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    height: auto;
+    background-size: cover;
+    background-image: linear-gradient(120deg, #BA0065, #BA0026);
+}
+
+::-webkit-scrollbar {
+    width: 0%;
+    opacity: 0;
+}
+
+img {
+    pointer-events: none;
+}
+
+/* Class Based */
+.Intext_Bold {
+    font-weight: bolder;
+}
+
+.Intext_Italic_Semi_Bold {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.Intext_Link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.Intext_Link:hover {
+    color: #00eeff;
+}
+
+.Section_Divider_Holder {
+    width: 1920px;
+    height: 23.475px;
+    padding-top: 9.39px;
+    padding-bottom: 9.39px;
+    background-color: #1b1b1b;
+    border: none;
+}
+
+.Section_Divider_Holder .Divider {
+    width: 95%;
+    height: 4.695px;
+    background-color: #ffffff;
+    border-radius: 9.39px;
+    margin-top: 9.39px;
+    border: none;
+}
+
+.Page_Landing {
+    width: 1920px;
+    height: 939px;
+}
+
+/* ID Based */
+#Annoucment {
+    position: fixed;
+    width: 90%;
+    height: 37.56px;
+    background-color: #111111;
+    border-radius: 234.75px;
+    margin-top: 18.78px;
+    margin-left: 5%;
+    overflow: hidden;
+    display: inline-flex;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#Annoucment #Status {
+    color: #ffffff;
+    margin-left: 37.58px;
+    margin-top: 5.6339999999999995px;
+    font-size: 18.78px;
+    font-family: Open_Sans_Regular;
+    transition: 0.5s;
+}
+
+/* Footer */
+#Page_Footer {
+    background-color: #111111;
+    height: auto;
+    width: 1920px;
+}
+
+#Page_Footer .Socials_Section {
+    display: flex;
+    width: 100%;
+    height: 75.12px;
+    margin-top: 9.39px;
+    justify-content: center;
+}
+
+#Page_Footer .Socials_Section .Social_Holder {
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: flex;
+}
+
+#Page_Footer .Socials_Section .Social_Redirect {
+    overflow: hidden;
+}
+
+#Page_Footer .Socials_Section .Social_Redirect .Social_Logo {
+    width: 46.975px;
+    margin-right: 9.395px;
+}
+
+#Page_Footer .Center {
+    width: 100%;
+    height: 18.78px;
+    display: flex;
+    justify-content: center;
+}
+
+#Page_Footer .Center .Divider {
+    width: 0.9395px;
+    background-color: #ffffff;
+    height: 26.291999999999998px;
+    margin-left: 37.58px;
+    margin-right: 37.58px;
+    border-radius: 20px;
+}
+
+#Page_Footer .Center .Link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Open_Sans_Light;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 11.7375px;
+    margin-top: 6px;
+    transition: 0.5s;
+}
+
+#Page_Footer .Center .Link:hover {
+    color: #00ff80;
+}
+
+#Page_Footer .Center #Theme {
+    background: none;
+    color: #ffffff;
+    font-family: Open_Sans_Light;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 11.7375px;
+    margin-top: 6px;
+    transition: 0.5s;
+}
+
+#Page_Footer .Center #Theme:hover {
+    color: #ff006a;
+}
+
+#Page_Footer .Center #Cookies {
+    background: none;
+    color: #ffffff;
+    font-family: Open_Sans_Light;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 11.7375px;
+    margin-top: 6px;
+    transition: 0.5s;
+}
+
+#Page_Footer .Center #Cookies:hover {
+    color: #ff006a;
+}
+
+#Page_Footer .Bottom_Info {
+    width: 100%;
+    height: 18.78px;
+    display: flex;
+    margin-top: 19px;
+    justify-content: center;
+}
+
+#Page_Footer .Bottom_Info .Info {
+    font-size: 9.39px;
+    font-family: Open_Sans_Light;
+    display: flex;
+    margin: 0;
+    color: #3a3a3a;
+}
+
+/* Media */
+@media all and (max-width: 1366px) and (min-width: 1360px) {
+    /* Class Based */
+    .Page_Landing {
+        width: 1366px;
+        height: 768px;
+    }
+
+    .Section_Divider_Holder {
+        width: 1366px;
+    }
+
+    /* Footer */
+    #Page_Footer {
+        width: 1366px;
+    }
+
+    #Page_Footer .Socials_Section .Social_Redirect .Social_Logo {
+        width: 36.975px;
+        margin-right: 7.395px;
+    }
+
+    #Page_Footer .Center .Divider {
+        width: 0.6395px;
+    }
+}
+
+@media all and (max-width: 1536px) and (min-width: 1400px) {
+    /* Class Based */
+    .Page_Landing {
+        width: 1536px;
+        height: 864px;
+    }
+
+    .Section_Divider_Holder {
+        width: 1536px;
+    }
+
+    /* Footer */
+    #Page_Footer {
+        width: 1536px;
+    }
+
+    #Page_Footer .Socials_Section .Social_Redirect .Social_Logo {
+        width: 36.975px;
+        margin-right: 8.395px;
+    }
+
+    #Page_Footer .Center .Divider {
+        width: 0.8395px;
+    }
+}

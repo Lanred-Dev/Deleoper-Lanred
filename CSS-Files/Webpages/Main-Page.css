@@ -1,0 +1,463 @@
+/* ©Lanred */
+
+/* Font registry */
+@font-face {
+    font-family: Open_Sans_Regular;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Regular.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bold;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Bold.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Light;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Light.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bolder;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-ExtraBold.ttf")  format("truetype");
+}
+
+/* Class Based */
+.Page_Landing .Center_Position_Inline {
+    display: inline-flex;
+    margin-left: 23%;
+    margin-top: 15.5%;
+    overflow: hidden;
+}
+
+.Page_Landing .Center_Position_Inline .Logo {
+    height: auto;
+}
+
+.Page_Landing .Center_Position_Inline .Section_Container {
+    border-radius: 9.39px;
+    margin-left: 20px;
+    width: auto;
+}
+
+.Page_Landing .Center_Position_Inline .Section_Container .Landing_Title {
+    color: #ffffff;
+    font-size: 56.34px;
+    font-family: Open_Sans_Bold;
+}
+
+.Page_Landing .Center_Position_Inline .Section_Container .Landing_Under_Title {
+    color: #ffffff;
+    font-size: 18.78px;
+    font-family: Open_Sans_Light;
+    transition: 0.5s;
+}
+
+.Section_Combine {
+    width: 1920px;
+    height: auto;
+}
+
+.Section_Combine .About_Container {
+    width: 1900px;
+    height: auto;
+    padding: 10px;
+}
+
+.Section_Combine .About_Container .Section_Info_Title {
+    font-size: 46.95px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Open_Sans_Bold;
+}
+
+.Section_Combine .About_Container .Section_Info_Under_Title {
+    text-align: center;
+    color: #ffffff;
+    font-family: Open_Sans_Regular;
+    transition: 0.5s;
+}
+
+.Section_Combine .About_Container .Divider {
+    width: 1671.1px;
+    height: 4.695px;
+    background-color: #ffffff;
+    border-radius: 9.39px;
+    margin-top: 9.39px;
+    margin-bottom: 9.39px;
+    border: none;
+}
+
+.Section_Combine .About_Container .About_Section {
+    width: 1900px;
+    margin: 0;
+    justify-content: center;
+    height: auto;
+}
+
+.Section_Combine .About_Container .About_Section .Mini_Divider {
+    width: 80%;
+    height: 2.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 9.39px;
+    background-color: #ffffff;
+}
+
+.Section_Combine .About_Container .About_Section .Info {
+    color: #ffffff;
+    text-align: center;
+    font-family: Open_Sans_Light;
+    font-size: 15px;
+}
+
+.Section_Combine .About_Container .About_Section .Info_List {
+    justify-content: center;
+    margin-left: 43.5%;
+    margin-top: 5px;
+}
+
+.Section_Combine .About_Container .About_Section .Info_List .List_Item {
+    color: #ffffff;
+    margin: 0;
+    width: 180px;
+}
+
+.Section_Combine .About_Container .About_Section .Info_List .List_Item .Item {
+    font-family: Open_Sans_Light;
+    color: #ffffff;
+    font-size: 12.5px;
+    text-align: center;
+    margin: 0;
+}
+
+.Section_Combine .Skills_Container {
+    width: 1920px;
+    height: 620.5px;
+    background-color: #111111;
+    display: flex;
+}
+
+.Section_Combine .Skills_Container .Skills_Combine {
+    background-color: #1b1b1b;
+    width: 1603.2px;
+    height: 590px;
+    margin-top: 15.25px;
+    border-radius: 18.78px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Section_Combine .Skills_Container .Skill {
+    width: 319.43px;
+    height: 517.203px;
+    display: block;
+    margin: 0;
+    margin-top: 36.406px;
+    padding: 5px;
+    border-radius: 18.78px;
+    background-color: #1b1b1b;
+    transition: 0.25s;
+}
+
+.Section_Combine .Skills_Container .Skill:hover {
+    background-color: #1f1f1f;
+}
+
+.Section_Combine .Skills_Container .Skill .Skill_Image {
+    width: 100px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Section_Combine .Skills_Container .Skill .Skill_Title {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Open_Sans_Bolder;
+}
+
+.Section_Combine .Skills_Container .Skill .Skill_Description {
+    font-family: Open_Sans_Light;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.Section_Combine .Skills_Container .Skill .Info_Container, .Skills_Container .Skill .Info_Container .List {
+    justify-content: center;
+    height: 293.750px;
+    width: 100%;
+}
+
+.Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item {
+    list-style: none;
+    width: auto;
+    margin: 0;
+    display: flex;
+}
+
+.Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item .Item_Name {
+    font-family: Open_Sans_Light;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item .Item {
+    width: 50.765px;
+    margin: 0;
+    height: auto;
+    border-radius: 9.39px;
+}
+
+.Section_Combine .Games_Container {
+    width: 1920px;
+    height: 620.5px;
+    display: flex;
+}
+
+.Section_Combine .Games_Container .Games_Combine {
+    width: 1603.2px;
+    height: 590px;
+    margin-top: 15.25px;
+    border-radius: 18.78px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List .List_Item {
+    list-style: none;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game {
+    width: 319.43px;
+    height: 264.250px;
+    display: block;
+    margin: 0;
+    padding: 5px;
+    border-radius: 18.78px;
+    transition: 0.25s;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Icon {
+    width: 150px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Title {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Open_Sans_Bolder;
+    text-decoration: none;
+}
+
+.Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Description {
+    font-family: Open_Sans_Light;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Media */
+@media all and (max-width: 1366px) and (min-width: 1360px) {
+    /* Class Based */
+    .Page_Landing .Center_Position_Inline {
+        margin-left: 13%;
+        margin-top: 10.5%;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Title {
+        font-size: 50.34px;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Under_Title {
+        font-size: 16.78px;
+    }
+
+    .Section_Combine {
+        width: 1366px;
+    }
+
+    .Section_Combine .About_Container {
+        width: 1346px;
+    }
+
+    .Section_Combine .About_Container .Divider {
+        width: 1178.1px;
+    }
+
+    .Section_Combine .About_Container .About_Section {
+        width: 1366px;
+    }
+
+    .Section_Combine .About_Container .About_Section .Info {
+        font-size: 13px;
+    }
+
+    .Section_Combine .Skills_Container, .Games_Container {
+        width: 1366px;
+    }
+
+    .Section_Combine .Skills_Container .Skills_Combine, .Games_Container .Games_Combine {
+        width: 990.2px;
+    }
+
+    .Section_Combine .Skills_Container .Skill {
+        width: 219.43px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Skill_Image {
+        width: 80px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Skill_Title {
+        font-size: 25px;
+    }
+
+    .Section_Combine.Skills_Container .Skill .Skill_Description {
+        font-size: 12px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Info_Container .List {
+        padding-left: 20px
+    }
+
+    .Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item .Item_Name {
+        font-size: 15px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item .Item {
+        width: 43.765px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game {
+        width: 290.43px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Icon {
+        width: 105px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Title {
+        font-size: 25px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Description {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 1536px) and (min-width: 1400px) {
+    /* Class Based */
+    .Page_Landing .Center_Position_Inline {
+        margin-left: 22%;
+        margin-top: 14.5%;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Title {
+        font-size: 50.34px;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Under_Title {
+        font-size: 16.78px;
+    }
+
+    .Section_Combine {
+        width: 1536px;
+    }
+
+    .Section_Combine .About_Container {
+        width: 1516px;
+    }
+
+    .Section_Combine .About_Container .Divider {
+        width: 1178.1px;
+    }
+
+    .Section_Combine .About_Container .About_Section {
+        width: 1536px;
+    }
+
+    .Section_Combine .About_Container .About_Section .Info {
+        font-size: 13px;
+    }
+
+    .Section_Combine .Skills_Container, .Games_Container {
+        width: 1536px;
+    }
+
+    .Section_Combine .Skills_Container .Skills_Combine, .Games_Container .Games_Combine {
+        width: 990.2px;
+    }
+
+    .Section_Combine .Skills_Container .Skill {
+        width: 219.43px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Skill_Image {
+        width: 80px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Skill_Title {
+        font-size: 25px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Skill_Description {
+        font-size: 12px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Info_Container .List {
+        padding-left: 20px
+    }
+
+    .Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item .Item_Name {
+        font-size: 15px;
+    }
+
+    .Section_Combine .Skills_Container .Skill .Info_Container .List .List_Item .Item {
+        width: 43.765px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game {
+        width: 290.43px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Icon {
+        width: 130px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Title {
+        font-size: 27px;
+    }
+
+    .Section_Combine .Games_Container .Games_Combine .List .List_Item .Web_Game .Redirect .Game_Description {
+        font-size: 13.5px;
+    }
+}

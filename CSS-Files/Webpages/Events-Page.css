@@ -1,0 +1,176 @@
+/* ©Lanred */
+
+/* Font registry */
+@font-face {
+    font-family: Open_Sans_Regular;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Regular.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bold;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Bold.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Light;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Light.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bolder;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-ExtraBold.ttf")  format("truetype");
+}
+
+/* Class Based */
+.Page_Landing #No_Current .Center_Position_Inline {
+    display: inline-flex;
+    margin-left: 27%;
+    margin-top: 18%;
+    overflow: hidden;
+}
+
+.Page_Landing #No_Current .Center_Position_Inline .Logo {
+    width: 200px;
+    transition: 0.5s;
+}
+
+.Page_Landing #No_Current .Center_Position_Inline .Section_Container {
+    border-radius: 9.39px;
+    margin-left: 25px;
+    width: auto;
+}
+
+.Page_Landing #No_Current .Center_Position_Inline .Section_Container .Title {
+    color: #ffffff;
+    font-size: 56.34px;
+    font-family: Open_Sans_Bold;
+}
+
+.Page_Landing #No_Current .Center_Position_Inline .Section_Container .Under_Title {
+    color: #ffffff;
+    font-size: 18.78px;
+    font-family: Open_Sans_Light;
+    transition: 0.5s;
+}
+
+/* Event Section */
+.Page_Landing #Events_Container {
+    width: 1920px;
+    height: 939px;
+    justify-content: center;
+}
+
+.Page_Landing #Events_Container .Header {
+    width: 1920px;
+    height: 70px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.Page_Landing #Events_Container .Header .Logo {
+    width: 70px;
+    margin-right: 0;
+}
+
+.Page_Landing #Events_Container .Header .Title {
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 20px;
+    font-family: Open_Sans_Bold;
+}
+
+.Page_Landing #Events_Container #Events_List {
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    width: 1920px;
+    height: 864px;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item {
+    list-style: none;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item #Event {
+    background-color: #1b1b1b00;
+    padding: 5px;
+    width: 500px;
+    height: 125px;
+    border-radius: 18.78px;
+    display: flex;
+    transition: 0.25s;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item #Event:hover {
+    background-color: #1b1b1b;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item #Event .Logo {
+    width: 120px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item #Event .Section_Container {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item #Event .Section_Container .Event_Name {
+    color: #ffffff;
+    font-family: Open_Sans_Bold;
+    font-size: 40px;
+}
+
+.Page_Landing #Events_Container #Events_List .List_Item #Event .Section_Container .Event_Dates {
+    color: #ffffff;
+    font-family: Open_Sans_Bold;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* Media */
+@media all and (max-width: 1366px) and (min-width: 1360px) {
+    /* Class Based */
+    .Page_Landing {
+        width: 1366px;
+        height: 768px;
+    }
+
+    .Page_Landing #No_Current .Center_Position_Inline {
+        margin-left: 19.5%;
+        margin-top: 14%;
+    }
+
+    .Page_Landing #No_Current .Center_Position_Inline .Section_Container .Title {
+        font-size: 50.34px;
+    }
+
+    .Page_Landing #No_Current .Center_Position_Inline .Section_Container .Under_Title {
+        font-size: 16.78px;
+    }
+}
+
+@media all and (max-width: 1536px) and (min-width: 1400px) {
+    /* Class Based */
+    .Page_Landing {
+        width: 1536px;
+        height: 864px;
+    }
+
+    .Page_Landing #No_Current .Center_Position_Inline {
+        margin-left: 23%;
+        margin-top: 19%;
+    }
+
+    .Page_Landing #No_Current .Center_Position_Inline .Section_Container .Title {
+        font-size: 50.34px;
+    }
+
+    .Page_Landing #No_Current .Center_Position_Inline .Section_Container .Under_Title {
+        font-size: 16.78px;
+    }
+}

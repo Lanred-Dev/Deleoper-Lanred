@@ -1,0 +1,86 @@
+/* ©Lanred */
+
+/* Font registry */
+@font-face {
+    font-family: Open_Sans_Regular;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Regular.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bold;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Bold.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Light;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-Light.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: Open_Sans_Bolder;
+    src: url("../Others/Fonts/Open_Sans/OpenSans-ExtraBold.ttf")  format("truetype");
+}
+
+/* Class Based */
+.Page_Landing .Center_Position_Inline {
+    display: inline-flex;
+    margin-left: 33.5%;
+    margin-top: 17.5%;
+    overflow: hidden;
+}
+
+.Page_Landing .Center_Position_Inline .Logo {
+    height: auto;
+}
+
+.Page_Landing .Center_Position_Inline .Section_Container {
+    border-radius: 9.39px;
+    margin-left: 30px;
+    width: auto;
+}
+
+.Page_Landing .Center_Position_Inline .Section_Container .Landing_Title {
+    color: #ffffff;
+    font-size: 66.34px;
+    font-family: Open_Sans_Bold;
+}
+
+.Page_Landing .Center_Position_Inline .Section_Container .Landing_Under_Title {
+    color: #ffffff;
+    font-size: 18.78px;
+    font-family: Open_Sans_Light;
+    transition: 0.5s;
+}
+
+/* Media */
+@media all and (max-width: 1366px) and (min-width: 1360px) {
+    /* Class Based */
+    .Page_Landing .Center_Position_Inline {
+        margin-left: 30%;
+        margin-top: 17.5%;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Title {
+        font-size: 50.34px;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Under_Title {
+        font-size: 16.78px;
+    }
+}
+
+@media all and (max-width: 1536px) and (min-width: 1400px) {
+    /* Class Based */
+    .Page_Landing .Center_Position_Inline {
+        margin-left: 35%;
+        margin-top: 17.5%;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Title {
+        font-size: 50.34px;
+    }
+
+    .Page_Landing .Center_Position_Inline .Section_Container .Landing_Under_Title {
+        font-size: 16.78px;
+    }
+}
